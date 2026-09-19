@@ -1,0 +1,42 @@
+{
+  "id": "./learn.html",
+  "name": "Slovak A1 — English-supported learning",
+  "short_name": "Slovak A1",
+  "description": "Original Slovak lessons, English grammar help and audio practice.",
+  "lang": "en",
+  "start_url": "./learn.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#edf2f7",
+  "theme_color": "#142f49",
+  "icons": [
+    {
+      "src": "icons/app-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/app-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/app-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "90-day course",
+      "url": "./index.html"
+    },
+    {
+      "name": "Listening practice",
+      "url": "./learn.html#listening"
+    }
+  ]
+}

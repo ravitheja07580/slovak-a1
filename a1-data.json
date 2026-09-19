@@ -1,0 +1,1670 @@
+{
+  "modules": [
+    {
+      "id": 1,
+      "title": "First conversations & sounds",
+      "goal": "Greet someone, introduce yourself and ask for help.",
+      "topics": [
+        {
+          "title": "Greetings and register",
+          "rule": "Use Dobrý deň with strangers and in formal situations. Ahoj is informal, normally for one person you know. Dovidenia is a polite goodbye.",
+          "examples": [
+            [
+              "Dobrý deň.",
+              "Hello / Good day."
+            ],
+            [
+              "Ahoj, ako sa máš?",
+              "Hi, how are you?"
+            ]
+          ],
+          "question": "Greet an unfamiliar shop assistant politely.",
+          "options": [
+            "Dobrý deň.",
+            "Dobrú noc.",
+            "Ahoj, kamarát!"
+          ],
+          "answer": 0,
+          "why": "Dobrý deň is a standard polite daytime greeting. Dobrú noc means good night."
+        },
+        {
+          "title": "Sound and length",
+          "rule": "Slovak normally stresses the first syllable. A long vowel is held longer; it is not simply a stressed vowel. Length can change meaning: sud is a barrel, súd is a court. This differs from consonant softness, such as t versus ť. Listen, repeat and keep the written accents.",
+          "examples": [
+            [
+              "To je sud.",
+              "That is a barrel."
+            ],
+            [
+              "To je súd.",
+              "That is a court."
+            ]
+          ],
+          "question": "Which word means “court”?",
+          "options": [
+            "sud",
+            "súd",
+            "sudca"
+          ],
+          "answer": 1,
+          "why": "Súd has a long ú and means court. Sud is a barrel; sudca is a judge."
+        },
+        {
+          "title": "Useful requests",
+          "rule": "Prosím can mean please or you are welcome, depending on context. Nerozumiem means I do not understand. Use a polite request to slow a conversation down.",
+          "examples": [
+            [
+              "Nerozumiem.",
+              "I do not understand."
+            ],
+            [
+              "Hovorte, prosím, pomaly.",
+              "Please speak slowly."
+            ]
+          ],
+          "question": "Ask someone to speak slowly.",
+          "options": [
+            "Hovorím po slovensky.",
+            "Hovorte, prosím, pomaly.",
+            "Rozumiem."
+          ],
+          "answer": 1,
+          "why": "Hovorte is the polite/plural command. Pomaly means slowly."
+        },
+        {
+          "title": "Names and polite address",
+          "rule": "Volám sa introduces your name. Ako sa voláte? uses the polite or plural form. Ako sa voláš? is informal singular. Keep the reflexive sa in these expressions.",
+          "examples": [
+            [
+              "Volám sa Anna.",
+              "My name is Anna."
+            ],
+            [
+              "Ako sa voláte?",
+              "What is your name? (polite)"
+            ]
+          ],
+          "question": "Complete: Volám ___ Peter.",
+          "options": [
+            "si",
+            "som",
+            "sa"
+          ],
+          "answer": 2,
+          "why": "The expression is volať sa: to be called. Volám sa Peter means My name is Peter."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "People, verbs & numbers",
+      "goal": "Give basic personal details and form simple sentences.",
+      "topics": [
+        {
+          "title": "Personal pronouns and byť",
+          "rule": "Ja, ty, on/ona/ono, my, vy, oni/ony correspond to I, you, he/she/it, we, you, they. Byť: som, si, je, sme, ste, sú. The ending often makes the pronoun unnecessary.",
+          "examples": [
+            [
+              "Som študent.",
+              "I am a student. (male)"
+            ],
+            [
+              "Sme doma.",
+              "We are at home."
+            ]
+          ],
+          "question": "Complete: My ___ doma.",
+          "options": [
+            "som",
+            "sme",
+            "sú"
+          ],
+          "answer": 1,
+          "why": "My uses sme. Som is I am; sú is they are."
+        },
+        {
+          "title": "Present tense and negation",
+          "rule": "Learn verbs with their forms. Volať: volám, voláš, volá, voláme, voláte, volajú. Hovoriť: hovorím, hovoríš, hovorí, hovoríme, hovoríte, hovoria. Most present verbs add ne- to become negative; byť uses nie som, nie si, nie je, nie sme, nie ste, nie sú.",
+          "examples": [
+            [
+              "Hovorím po anglicky.",
+              "I speak English."
+            ],
+            [
+              "Nie som učiteľ.",
+              "I am not a teacher. (male)"
+            ]
+          ],
+          "question": "Choose “I do not speak Slovak.”",
+          "options": [
+            "Nie hovorím po slovensky.",
+            "Nehovorím po slovensky.",
+            "Nesom Slovák."
+          ],
+          "answer": 1,
+          "why": "Nehovorím is one word. The separate nie pattern belongs to forms of byť."
+        },
+        {
+          "title": "Gender and articles",
+          "rule": "Slovak has no equivalent of a/the. Nouns have masculine, feminine or neuter gender. Common patterns: masculine consonant, feminine -a, neuter -o/-e. These are clues, not universal rules: noc is feminine and kolega is masculine.",
+          "examples": [
+            [
+              "To je mesto.",
+              "That is a town/city."
+            ],
+            [
+              "To je žena.",
+              "That is a woman."
+            ]
+          ],
+          "question": "What gender is mesto?",
+          "options": [
+            "Masculine",
+            "Feminine",
+            "Neuter"
+          ],
+          "answer": 2,
+          "why": "Mesto is neuter. Learn each noun with its gender."
+        },
+        {
+          "title": "Numbers and age",
+          "rule": "Basic numbers: jeden, dva, tri, štyri, päť, šesť, sedem, osem, deväť, desať. Age uses mať, literally to have. Rok changes with the number: jeden rok, dva roky, päť rokov; here 25 uses rokov.",
+          "examples": [
+            [
+              "Mám dvadsaťpäť rokov.",
+              "I am twenty-five years old."
+            ],
+            [
+              "Mám telefón.",
+              "I have a phone."
+            ]
+          ],
+          "question": "Which sentence gives your age?",
+          "options": [
+            "Som dvadsaťpäť rokov.",
+            "Mám dvadsaťpäť rokov.",
+            "Je dvadsaťpäť rokov."
+          ],
+          "answer": 1,
+          "why": "Slovak uses mám for my age. Dvadsaťpäť is 25."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Family, descriptions & possession",
+      "goal": "Describe family members and say who owns something.",
+      "topics": [
+        {
+          "title": "Adjective agreement",
+          "rule": "In basic nominative singular descriptions, a regular hard adjective changes with the noun: nový muž, nová žena, nové mesto. Soft adjectives use other endings, such as cudzí, cudzia, cudzie.",
+          "examples": [
+            [
+              "To je dobrá kniha.",
+              "That is a good book."
+            ],
+            [
+              "To je nové auto.",
+              "That is a new car."
+            ]
+          ],
+          "question": "Complete: To je ___ auto.",
+          "options": [
+            "nový",
+            "nová",
+            "nové"
+          ],
+          "answer": 2,
+          "why": "Auto is neuter, so use nové."
+        },
+        {
+          "title": "Possessives",
+          "rule": "Môj/moja/moje means my and tvoj/tvoja/tvoje means your (informal singular). The form agrees with the thing owned. Jeho (his/its) and jej (her) do not change in these phrases.",
+          "examples": [
+            [
+              "To je moja sestra.",
+              "That is my sister."
+            ],
+            [
+              "To je jej brat.",
+              "That is her brother."
+            ]
+          ],
+          "question": "Complete: To je ___ sestra. (my)",
+          "options": [
+            "môj",
+            "moja",
+            "moje"
+          ],
+          "answer": 1,
+          "why": "Sestra is feminine, so use moja."
+        },
+        {
+          "title": "Čí, aký and ktorý",
+          "rule": "Čí asks whose; aký asks what something is like; ktorý asks which. These words agree with the noun: čia kniha, aká izba, ktoré auto.",
+          "examples": [
+            [
+              "Čia je tá kniha?",
+              "Whose book is that?"
+            ],
+            [
+              "Ktoré auto je tvoje?",
+              "Which car is yours?"
+            ]
+          ],
+          "question": "Choose the question asking about ownership.",
+          "options": [
+            "Aká je kniha?",
+            "Kde je kniha?",
+            "Čia je kniha?"
+          ],
+          "answer": 2,
+          "why": "Čia asks whose with a feminine noun. Aká asks what it is like; kde asks where."
+        },
+        {
+          "title": "Family and marital status",
+          "rule": "Use som with descriptions of yourself. Married is ženatý for a man and vydatá for a woman. A male child is syn; a female child is dcéra. Brat is brother, sestra sister.",
+          "examples": [
+            [
+              "Som vydatá.",
+              "I am married. (woman speaking)"
+            ],
+            [
+              "Mám brata a sestru.",
+              "I have a brother and a sister."
+            ]
+          ],
+          "question": "A woman says “I am married.”",
+          "options": [
+            "Som vydatá.",
+            "Som ženatý.",
+            "Mám vydatá."
+          ],
+          "answer": 0,
+          "why": "Vydatá is the feminine expression for married. Som links the description to the speaker."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Places, plurals & questions",
+      "goal": "Talk about more than one thing and ask simple questions.",
+      "topics": [
+        {
+          "title": "Nominative plural",
+          "rule": "Plural forms depend on gender and noun pattern. Learn frequent pairs: študent–študenti, žena–ženy, mesto–mestá, ulica–ulice. Masculine animate nouns often differ from inanimate nouns. There is no single plural ending.",
+          "examples": [
+            [
+              "Tu sú študenti.",
+              "The students are here."
+            ],
+            [
+              "Tu sú dve mestá.",
+              "Here are two towns."
+            ]
+          ],
+          "question": "Complete: Tu ___ študenti.",
+          "options": [
+            "je",
+            "som",
+            "sú"
+          ],
+          "answer": 2,
+          "why": "A plural subject takes sú: they are."
+        },
+        {
+          "title": "Plural adjectives",
+          "rule": "Compare dobrý študent–dobrí študenti and dobré knihy/mestá. Masculine animate nominative plural uses dobrí; these feminine and neuter plurals use dobré.",
+          "examples": [
+            [
+              "To sú dobrí študenti.",
+              "Those are good students."
+            ],
+            [
+              "To sú dobré knihy.",
+              "Those are good books."
+            ]
+          ],
+          "question": "Complete: dobrí ___.",
+          "options": [
+            "študenti",
+            "knihy",
+            "mestá"
+          ],
+          "answer": 0,
+          "why": "Dobrí matches masculine animate plural študenti."
+        },
+        {
+          "title": "Two, three, four",
+          "rule": "In nominative counting phrases use dva with masculine inanimate nouns, dve with feminine/neuter nouns, and dvaja with masculine people. Compare dva stoly, dve knihy, dvaja študenti. Three and four also have person forms traja and štyria.",
+          "examples": [
+            [
+              "Mám dve knihy.",
+              "I have two books."
+            ],
+            [
+              "Tu sú dvaja študenti.",
+              "There are two students here."
+            ]
+          ],
+          "question": "Complete: ___ knihy. (two)",
+          "options": [
+            "Dva",
+            "Dve",
+            "Dvaja"
+          ],
+          "answer": 1,
+          "why": "Kniha is feminine, so two books is dve knihy."
+        },
+        {
+          "title": "Questions and prices",
+          "rule": "A yes/no question can keep statement word order with question intonation. Kde means where; koľko means how much/how many. Stáť means to cost in a price question: stojí for one item, stoja for plural items.",
+          "examples": [
+            [
+              "Koľko stojí lístok?",
+              "How much does a ticket cost?"
+            ],
+            [
+              "Kde je stanica?",
+              "Where is the station?"
+            ]
+          ],
+          "question": "Ask the price of one ticket.",
+          "options": [
+            "Koľko stojí lístok?",
+            "Kedy je lístok?",
+            "Kto je lístok?"
+          ],
+          "answer": 0,
+          "why": "Koľko asks the price; kedy asks when and kto asks who."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Objects, wishes & movement",
+      "goal": "Order something, express a need and say where you are going.",
+      "topics": [
+        {
+          "title": "Accusative: the direct object",
+          "rule": "The accusative often marks what you see, have or want. Feminine nouns in -a usually change to -u: káva→kávu. Masculine animate nouns often change: brat→brata. Masculine inanimate and neuter singular frequently stay the same: čaj, auto.",
+          "examples": [
+            [
+              "Prosím si kávu.",
+              "I would like a coffee, please."
+            ],
+            [
+              "Vidím brata.",
+              "I can see my/the brother."
+            ]
+          ],
+          "question": "Complete: Prosím si ___.",
+          "options": [
+            "káva",
+            "káve",
+            "kávu"
+          ],
+          "answer": 2,
+          "why": "Káva becomes kávu as the object in this phrase."
+        },
+        {
+          "title": "Object adjectives and pronouns",
+          "rule": "Agreement changes with the case too: dobrá káva→dobrú kávu. Useful object pronouns include ma (me), ťa (you, informal), ho (him/it, masculine), ju (her/it, feminine), nás (us), vás (you), ich (them).",
+          "examples": [
+            [
+              "Mám dobrú knihu.",
+              "I have a good book."
+            ],
+            [
+              "Vidím ju.",
+              "I see her."
+            ]
+          ],
+          "question": "Complete: Mám ___ knihu.",
+          "options": [
+            "dobrý",
+            "dobrú",
+            "dobrá"
+          ],
+          "answer": 1,
+          "why": "Both dobrú and knihu take feminine accusative forms."
+        },
+        {
+          "title": "Modal verbs plus infinitive",
+          "rule": "A second verb after chcem (I want), môžem (I can/may), musím (I must) or viem (I know how) normally stays in the infinitive. Môcť may express possibility/permission; vedieť may express a learned skill.",
+          "examples": [
+            [
+              "Chcem hovoriť po slovensky.",
+              "I want to speak Slovak."
+            ],
+            [
+              "Musím pracovať.",
+              "I have to work."
+            ]
+          ],
+          "question": "Complete: Chcem ___ po slovensky.",
+          "options": [
+            "hovorím",
+            "hovoriť",
+            "hovoríš"
+          ],
+          "answer": 1,
+          "why": "After chcem, use the infinitive hovoriť."
+        },
+        {
+          "title": "Going somewhere",
+          "rule": "Ísť: idem, ideš, ide, ideme, idete, idú. Destination phrases must be learned with their preposition and case: do školy (genitive), na poštu (accusative), k lekárovi (dative). These prepositions are not interchangeable.",
+          "examples": [
+            [
+              "Idem do školy.",
+              "I am going to school."
+            ],
+            [
+              "Idem na poštu.",
+              "I am going to the post office."
+            ]
+          ],
+          "question": "Complete the standard phrase: Idem ___ poštu.",
+          "options": [
+            "v",
+            "na",
+            "z"
+          ],
+          "answer": 1,
+          "why": "Na poštu expresses a destination. At the post office is na pošte."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Food, company & transport",
+      "goal": "Order a meal and describe transport and company.",
+      "topics": [
+        {
+          "title": "Instrumental with s/so",
+          "rule": "S/so meaning with takes the instrumental. Common singular forms: brat→bratom, žena→ženou, auto→autom. So is a pronunciation-friendly form of s, as in so sestrou and so mnou.",
+          "examples": [
+            [
+              "Idem s bratom.",
+              "I am going with my brother."
+            ],
+            [
+              "Káva s mliekom.",
+              "Coffee with milk."
+            ]
+          ],
+          "question": "Complete: Idem s ___.",
+          "options": [
+            "brat",
+            "brata",
+            "bratom"
+          ],
+          "answer": 2,
+          "why": "S meaning with requires instrumental: bratom."
+        },
+        {
+          "title": "Transport without a preposition",
+          "rule": "To say how you travel, Slovak often uses the instrumental without s: autobusom, vlakom, autom. Pešo means on foot and does not change.",
+          "examples": [
+            [
+              "Cestujem vlakom.",
+              "I travel by train."
+            ],
+            [
+              "Idem pešo.",
+              "I am going on foot."
+            ]
+          ],
+          "question": "Choose “I travel by bus.”",
+          "options": [
+            "Cestujem autobusom.",
+            "Cestujem s autobus.",
+            "Cestujem autobusu."
+          ],
+          "answer": 0,
+          "why": "Autobusom alone expresses the means of transport."
+        },
+        {
+          "title": "Instrumental pronouns",
+          "rule": "After s/so, use the full pronoun forms: so mnou, s tebou, s ním, s ňou, s nami, s vami, s nimi. Do not use the short object pronoun forms here.",
+          "examples": [
+            [
+              "Poď so mnou.",
+              "Come with me."
+            ],
+            [
+              "Idem s ňou.",
+              "I am going with her."
+            ]
+          ],
+          "question": "Complete: Poď ___ mnou.",
+          "options": [
+            "so",
+            "do",
+            "na"
+          ],
+          "answer": 0,
+          "why": "So mnou is the standard phrase for with me."
+        },
+        {
+          "title": "Ordering and quantities",
+          "rule": "Prosím si… is a useful order; dal by som si… / dala by som si… is a polite I would like… for a male/female speaker. Quantity expressions often use genitive: pohár vody, šálka čaju.",
+          "examples": [
+            [
+              "Prosím si pohár vody.",
+              "I would like a glass of water, please."
+            ],
+            [
+              "Dala by som si čaj.",
+              "I would like tea. (woman speaking)"
+            ]
+          ],
+          "question": "Complete: pohár ___. (a glass of water)",
+          "options": [
+            "voda",
+            "vodu",
+            "vody"
+          ],
+          "answer": 2,
+          "why": "After this container expression, voda takes genitive: vody."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Routines, time & the past",
+      "goal": "Describe your day and something you did yesterday.",
+      "topics": [
+        {
+          "title": "Past tense",
+          "rule": "Past tense uses an -l form with gender/number agreement. Bol som (male), bola som (female), boli sme (we). First/second persons use som/si/sme/ste; third person usually has no auxiliary: on bol, ona bola, oni boli.",
+          "examples": [
+            [
+              "Včera som pracoval.",
+              "I worked yesterday. (male)"
+            ],
+            [
+              "Včera som pracovala.",
+              "I worked yesterday. (female)"
+            ]
+          ],
+          "question": "A woman says: Včera som ___. (worked)",
+          "options": [
+            "pracoval",
+            "pracovala",
+            "pracovali"
+          ],
+          "answer": 1,
+          "why": "A female singular speaker uses pracovala."
+        },
+        {
+          "title": "Everyday irregular verbs",
+          "rule": "Learn these frequent forms individually: jesť→jem, ješ, je, jeme, jete, jedia; vedieť→viem, vieš, vie, vieme, viete, vedia; vidieť→vidím, vidíš, vidí, vidíme, vidíte, vidia.",
+          "examples": [
+            [
+              "Jem chlieb.",
+              "I am eating bread."
+            ],
+            [
+              "Viem plávať.",
+              "I can swim."
+            ]
+          ],
+          "question": "Complete: Ja ___ chlieb. (eat)",
+          "options": [
+            "jedia",
+            "jem",
+            "ješ"
+          ],
+          "answer": 1,
+          "why": "Jem is the first person singular of jesť."
+        },
+        {
+          "title": "Clock times",
+          "rule": "O introduces the time of an event: o ôsmej (at eight). Pol deviatej literally half of the ninth means 8:30. Štvrť na deväť is 8:15; trištvrte na deväť is 8:45. Digital-style readings are also useful.",
+          "examples": [
+            [
+              "Kurz sa začína o ôsmej.",
+              "The course starts at eight."
+            ],
+            [
+              "Je pol deviatej.",
+              "It is half past eight."
+            ]
+          ],
+          "question": "What time is pol deviatej?",
+          "options": [
+            "9:30",
+            "8:30",
+            "9:00"
+          ],
+          "answer": 1,
+          "why": "Slovak names the upcoming hour in this expression: half of the ninth hour is 8:30."
+        },
+        {
+          "title": "Už and ešte",
+          "rule": "Už means already/now; ešte means still/yet. Už nie means no longer; ešte nie means not yet. Position and context determine the most natural English translation.",
+          "examples": [
+            [
+              "Už som doma.",
+              "I am home already."
+            ],
+            [
+              "Ešte nie som doma.",
+              "I am not home yet."
+            ]
+          ],
+          "question": "Choose “not yet.”",
+          "options": [
+            "už nie",
+            "ešte nie",
+            "už áno"
+          ],
+          "answer": 1,
+          "why": "Ešte nie means not yet. Už nie means no longer."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Work, dates & locations",
+      "goal": "Give basic work details, understand a date and describe a location.",
+      "topics": [
+        {
+          "title": "Locative: where something is",
+          "rule": "V/vo (in), na (on/at) and o (about) take locative in these uses. Learn frequent forms: v škole, v meste, na pošte, o práci. Compare location v škole with destination do školy.",
+          "examples": [
+            [
+              "Pracujem v škole.",
+              "I work in a school."
+            ],
+            [
+              "Som na pošte.",
+              "I am at the post office."
+            ]
+          ],
+          "question": "Complete: Som v ___. (town)",
+          "options": [
+            "mesto",
+            "meste",
+            "mesta"
+          ],
+          "answer": 1,
+          "why": "V expressing location takes locative: v meste."
+        },
+        {
+          "title": "Locative pronouns",
+          "rule": "Useful forms after o: o mne, o tebe, o ňom, o nej, o nás, o vás, o nich. Pronouns have different forms in different cases: s ním (with him), o ňom (about him).",
+          "examples": [
+            [
+              "Hovoríme o práci.",
+              "We are talking about work."
+            ],
+            [
+              "Hovoríme o nej.",
+              "We are talking about her."
+            ]
+          ],
+          "question": "Choose “about me.”",
+          "options": [
+            "o ma",
+            "o mnou",
+            "o mne"
+          ],
+          "answer": 2,
+          "why": "After o meaning about, the locative form is mne."
+        },
+        {
+          "title": "Dates",
+          "rule": "For “on” a calendar date, Slovak commonly uses a genitive ordinal and genitive month: prvého mája (on 1 May), druhého júna (on 2 June). A full date is more complex than reading the cardinal number.",
+          "examples": [
+            [
+              "Narodeniny mám prvého mája.",
+              "My birthday is on the first of May."
+            ],
+            [
+              "Stretneme sa druhého júna.",
+              "We will meet on the second of June."
+            ]
+          ],
+          "question": "What date is prvého mája?",
+          "options": [
+            "1 March",
+            "1 May",
+            "5 January"
+          ],
+          "answer": 1,
+          "why": "Máj is May; prvého indicates the first in a date."
+        },
+        {
+          "title": "Negative words together",
+          "rule": "Slovak normally combines negative words with a negative verb: Nikto tu nie je; Nič neviem; Nikdy nefajčím. Do not remove the verb negation to imitate English.",
+          "examples": [
+            [
+              "Nikto tu nie je.",
+              "Nobody is here."
+            ],
+            [
+              "Nič neviem.",
+              "I do not know anything."
+            ]
+          ],
+          "question": "Choose “Nobody is here.”",
+          "options": [
+            "Nikto tu je.",
+            "Nikto tu nie je.",
+            "Niekto tu nie je."
+          ],
+          "answer": 1,
+          "why": "Nikto pairs with nie je. Niekto means somebody."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Health, plans & everyday interactions",
+      "goal": "Describe a simple problem and make a plan.",
+      "topics": [
+        {
+          "title": "Reflexive sa and si",
+          "rule": "Learn reflexive verbs as complete expressions: volať sa, učiť sa, sprchovať sa; dať si, kúpiť si. Sa and si are not freely interchangeable. They often appear early in the clause, after the first phrase.",
+          "examples": [
+            [
+              "Učím sa po slovensky.",
+              "I am learning Slovak."
+            ],
+            [
+              "Ráno sa sprchujem.",
+              "I shower in the morning."
+            ]
+          ],
+          "question": "Complete: Ráno ___ sprchujem.",
+          "options": [
+            "si",
+            "som",
+            "sa"
+          ],
+          "answer": 2,
+          "why": "The verb is sprchovať sa. Keep sa."
+        },
+        {
+          "title": "Saying what hurts",
+          "rule": "Bolí ma… means …hurts me / I have a pain in…. Use bolí for a singular body part and bolia for plural parts. The body part is the grammatical subject.",
+          "examples": [
+            [
+              "Bolí ma hlava.",
+              "I have a headache."
+            ],
+            [
+              "Bolia ma nohy.",
+              "My legs hurt."
+            ]
+          ],
+          "question": "Complete: ___ ma hlava.",
+          "options": [
+            "Bolí",
+            "Bolia",
+            "Bolím"
+          ],
+          "answer": 0,
+          "why": "Hlava is singular, so use bolí."
+        },
+        {
+          "title": "Future plans",
+          "rule": "With many imperfective verbs use budem/budeš/bude/budeme/budete/budú + infinitive: budem pracovať. Ísť has the common future pôjdem. Perfective verbs can express future meaning with their present-shaped forms: kúpim (I will buy).",
+          "examples": [
+            [
+              "Zajtra budem pracovať.",
+              "I will work tomorrow."
+            ],
+            [
+              "Zajtra pôjdem do mesta.",
+              "I will go to town tomorrow."
+            ]
+          ],
+          "question": "Complete: Zajtra budem ___.",
+          "options": [
+            "pracoval",
+            "pracujem",
+            "pracovať"
+          ],
+          "answer": 2,
+          "why": "After budem, use the infinitive in this future construction."
+        },
+        {
+          "title": "Requests and invitations",
+          "rule": "Use prosím with a request. Môžete…? is polite/plural can you…?. Môžeš…? is informal singular. Chceš…? asks do you want…? Use prepáčte for a polite excuse me/sorry.",
+          "examples": [
+            [
+              "Môžete mi pomôcť?",
+              "Can you help me? (polite)"
+            ],
+            [
+              "Chceš ísť na kávu?",
+              "Would you like to go for coffee? (informal)"
+            ]
+          ],
+          "question": "Ask a stranger politely for help.",
+          "options": [
+            "Môžete mi pomôcť?",
+            "Pomáham ti.",
+            "Chceš mi?"
+          ],
+          "answer": 0,
+          "why": "Môžete mi pomôcť? is a complete polite request."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Bring it together",
+      "goal": "Use basic Slovak in an everyday exchange and identify what to practise next.",
+      "topics": [
+        {
+          "title": "Genitive and dative survival phrases",
+          "rule": "Do (to/into), z/zo (from/out of) and bez (without) commonly take genitive: do mesta, zo školy, bez cukru. K/ku (towards/to) takes dative: k lekárovi. Learn the noun form with each phrase.",
+          "examples": [
+            [
+              "Čaj bez cukru, prosím.",
+              "Tea without sugar, please."
+            ],
+            [
+              "Idem k lekárovi.",
+              "I am going to the doctor."
+            ]
+          ],
+          "question": "Complete: čaj bez ___.",
+          "options": [
+            "cukor",
+            "cukru",
+            "cukrom"
+          ],
+          "answer": 1,
+          "why": "Bez takes genitive; cukor becomes cukru."
+        },
+        {
+          "title": "Connecting ideas",
+          "rule": "A joins ideas (and), ale contrasts them (but), lebo gives a reason (because). Keep your first messages short and clear. Questions can use kto, čo, kde, kedy, ako and prečo.",
+          "examples": [
+            [
+              "Učím sa po slovensky, lebo tu bývam.",
+              "I am learning Slovak because I live here."
+            ],
+            [
+              "Chcem ísť, ale nemám čas.",
+              "I want to go, but I do not have time."
+            ]
+          ],
+          "question": "Complete with “because”: Učím sa, ___ tu bývam.",
+          "options": [
+            "ale",
+            "lebo",
+            "kde"
+          ],
+          "answer": 1,
+          "why": "Lebo introduces the reason. Ale means but."
+        },
+        {
+          "title": "Repairing a conversation",
+          "rule": "Asking for repetition is part of communication. Use Ešte raz, prosím; Ako sa to povie po slovensky?; Môžete to napísať? At A1 you may still need a patient partner to speak slowly and help.",
+          "examples": [
+            [
+              "Ešte raz, prosím.",
+              "Once more, please."
+            ],
+            [
+              "Môžete to napísať?",
+              "Can you write it down? (polite)"
+            ]
+          ],
+          "question": "Ask for repetition.",
+          "options": [
+            "Ešte raz, prosím.",
+            "Už nikdy.",
+            "Nie som tu."
+          ],
+          "answer": 0,
+          "why": "Ešte raz means once more."
+        },
+        {
+          "title": "Simple messages",
+          "rule": "A useful short message states who you are, the reason for writing, the important time/place and a polite closing. Check the task details first, then verbs, noun endings and diacritics.",
+          "examples": [
+            [
+              "Dobrý deň, dnes nemôžem prísť.",
+              "Hello, I cannot come today."
+            ],
+            [
+              "Ďakujem za pomoc.",
+              "Thank you for your help."
+            ]
+          ],
+          "question": "Which message clearly says you cannot come today?",
+          "options": [
+            "Dnes môžem prísť.",
+            "Dnes nemôžem prísť.",
+            "Včera som prišiel."
+          ],
+          "answer": 1,
+          "why": "Nemôžem means I cannot. Dnes is today; včera is yesterday."
+        }
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "id": "listening-1",
+      "unit": 1,
+      "type": "listening",
+      "title": "Meeting someone",
+      "sk": "Dobrý deň. Volám sa Eva. Som zo Slovenska. Bývam v Bratislave.",
+      "en": "Hello. My name is Eva. I am from Slovakia. I live in Bratislava.",
+      "questions": [
+        {
+          "prompt": "What is her name?",
+          "options": [
+            "Anna",
+            "Eva",
+            "Jana"
+          ],
+          "answer": 1,
+          "why": "She says Volám sa Eva."
+        },
+        {
+          "prompt": "Where does she live?",
+          "options": [
+            "Bratislava",
+            "Košice",
+            "Praha"
+          ],
+          "answer": 0,
+          "why": "Bývam v Bratislave means I live in Bratislava."
+        }
+      ]
+    },
+    {
+      "id": "reading-1",
+      "unit": 1,
+      "type": "reading",
+      "title": "A language class",
+      "sk": "Ahoj! Som Peter. Učím sa po anglicky. Moja učiteľka sa volá Anna.",
+      "en": "Hi! I am Peter. I am learning English. My teacher is called Anna.",
+      "questions": [
+        {
+          "prompt": "Who is learning English?",
+          "options": [
+            "Anna",
+            "Peter",
+            "Eva"
+          ],
+          "answer": 1,
+          "why": "Peter says Učím sa po anglicky."
+        },
+        {
+          "prompt": "Who is Anna?",
+          "options": [
+            "His sister",
+            "His teacher",
+            "His daughter"
+          ],
+          "answer": 1,
+          "why": "Moja učiteľka means my teacher."
+        }
+      ]
+    },
+    {
+      "id": "listening-2",
+      "unit": 2,
+      "type": "listening",
+      "title": "Personal details",
+      "sk": "Volám sa Martin. Mám tridsať rokov. Som učiteľ. Hovorím po slovensky a po anglicky.",
+      "en": "My name is Martin. I am thirty years old. I am a teacher. I speak Slovak and English.",
+      "questions": [
+        {
+          "prompt": "How old is Martin?",
+          "options": [
+            "20",
+            "30",
+            "40"
+          ],
+          "answer": 1,
+          "why": "Tridsať means thirty."
+        },
+        {
+          "prompt": "What is his job?",
+          "options": [
+            "Doctor",
+            "Student",
+            "Teacher"
+          ],
+          "answer": 2,
+          "why": "Učiteľ means a male teacher."
+        }
+      ]
+    },
+    {
+      "id": "reading-2",
+      "unit": 2,
+      "type": "reading",
+      "title": "A short profile",
+      "sk": "Lucia je študentka. Má dvadsať rokov. Býva v Nitre. Nehovorí po nemecky.",
+      "en": "Lucia is a student. She is twenty years old. She lives in Nitra. She does not speak German.",
+      "questions": [
+        {
+          "prompt": "Where does Lucia live?",
+          "options": [
+            "Nitra",
+            "Bratislava",
+            "Žilina"
+          ],
+          "answer": 0,
+          "why": "Býva v Nitre means she lives in Nitra."
+        },
+        {
+          "prompt": "Does she speak German?",
+          "options": [
+            "Yes",
+            "No",
+            "The text does not say"
+          ],
+          "answer": 1,
+          "why": "Nehovorí po nemecky explicitly says she does not speak German."
+        }
+      ]
+    },
+    {
+      "id": "listening-3",
+      "unit": 3,
+      "type": "listening",
+      "title": "Family",
+      "sk": "Toto je moja sestra Zuzana. Má dve deti. Jej syn sa volá Adam a jej dcéra sa volá Nina.",
+      "en": "This is my sister Zuzana. She has two children. Her son is called Adam and her daughter is called Nina.",
+      "questions": [
+        {
+          "prompt": "How many children does Zuzana have?",
+          "options": [
+            "One",
+            "Two",
+            "Three"
+          ],
+          "answer": 1,
+          "why": "Dve deti means two children."
+        },
+        {
+          "prompt": "Who is Nina?",
+          "options": [
+            "Her daughter",
+            "Her sister",
+            "Her mother"
+          ],
+          "answer": 0,
+          "why": "Jej dcéra means her daughter."
+        }
+      ]
+    },
+    {
+      "id": "reading-3",
+      "unit": 3,
+      "type": "reading",
+      "title": "Lost property",
+      "sk": "Hľadám svoju tašku. Je malá a čierna. Je v nej telefón a kniha.",
+      "en": "I am looking for my bag. It is small and black. There is a phone and a book in it.",
+      "questions": [
+        {
+          "prompt": "What colour is the bag?",
+          "options": [
+            "White",
+            "Blue",
+            "Black"
+          ],
+          "answer": 2,
+          "why": "Čierna means black."
+        },
+        {
+          "prompt": "What is inside?",
+          "options": [
+            "Keys and water",
+            "A phone and a book",
+            "A computer"
+          ],
+          "answer": 1,
+          "why": "Telefón a kniha means a phone and a book."
+        }
+      ]
+    },
+    {
+      "id": "listening-4",
+      "unit": 4,
+      "type": "listening",
+      "title": "At the station",
+      "sk": "Prosím si dva lístky do Trnavy. Vlak ide o deviatej. Stanica je blízko hotela.",
+      "en": "I would like two tickets to Trnava, please. The train leaves at nine. The station is near the hotel.",
+      "questions": [
+        {
+          "prompt": "How many tickets?",
+          "options": [
+            "One",
+            "Two",
+            "Three"
+          ],
+          "answer": 1,
+          "why": "Dva lístky means two tickets."
+        },
+        {
+          "prompt": "When does the train leave?",
+          "options": [
+            "8:00",
+            "9:00",
+            "10:00"
+          ],
+          "answer": 1,
+          "why": "O deviatej means at nine."
+        }
+      ]
+    },
+    {
+      "id": "reading-4",
+      "unit": 4,
+      "type": "reading",
+      "title": "Library hours",
+      "sk": "Knižnica je otvorená od pondelka do piatka od ôsmej do šiestej večer. V sobotu je zatvorená.",
+      "en": "The library is open Monday to Friday from eight to six in the evening. It is closed on Saturday.",
+      "questions": [
+        {
+          "prompt": "Is it open on Saturday?",
+          "options": [
+            "Yes",
+            "No",
+            "Only in the morning"
+          ],
+          "answer": 1,
+          "why": "V sobotu je zatvorená means it is closed on Saturday."
+        },
+        {
+          "prompt": "When does it close on Friday?",
+          "options": [
+            "16:00",
+            "17:00",
+            "18:00"
+          ],
+          "answer": 2,
+          "why": "Do šiestej večer means until six in the evening."
+        }
+      ]
+    },
+    {
+      "id": "listening-5",
+      "unit": 5,
+      "type": "listening",
+      "title": "A café order",
+      "sk": "Dobrý deň. Prosím si jednu kávu bez mlieka a jeden čaj s citrónom. Koláč nechcem, ďakujem.",
+      "en": "Hello. I would like one coffee without milk and one tea with lemon. I do not want cake, thank you.",
+      "questions": [
+        {
+          "prompt": "How does the customer want the coffee?",
+          "options": [
+            "With milk",
+            "Without milk",
+            "With lemon"
+          ],
+          "answer": 1,
+          "why": "Bez mlieka means without milk."
+        },
+        {
+          "prompt": "Does the customer want cake?",
+          "options": [
+            "Yes",
+            "No",
+            "Two pieces"
+          ],
+          "answer": 1,
+          "why": "Koláč nechcem means I do not want cake."
+        }
+      ]
+    },
+    {
+      "id": "reading-5",
+      "unit": 5,
+      "type": "reading",
+      "title": "An invitation",
+      "sk": "Ahoj, dnes idem do kina. Film sa začína o siedmej večer. Chceš ísť so mnou? Stretneme sa pred kinom o pol siedmej.",
+      "en": "Hi, I am going to the cinema today. The film starts at seven in the evening. Do you want to go with me? We will meet in front of the cinema at half past six.",
+      "questions": [
+        {
+          "prompt": "When is the meeting?",
+          "options": [
+            "18:30",
+            "19:00",
+            "19:30"
+          ],
+          "answer": 0,
+          "why": "Pol siedmej means half past six."
+        },
+        {
+          "prompt": "Where will they meet?",
+          "options": [
+            "Inside the café",
+            "In front of the cinema",
+            "At school"
+          ],
+          "answer": 1,
+          "why": "Pred kinom means in front of the cinema."
+        }
+      ]
+    },
+    {
+      "id": "listening-6",
+      "unit": 6,
+      "type": "listening",
+      "title": "Lunch plans",
+      "sk": "Dnes obedujem s kolegyňou. Ideme do reštaurácie pešo. Dám si polievku a rybu so zemiakmi.",
+      "en": "Today I am having lunch with a female colleague. We are walking to the restaurant. I will have soup and fish with potatoes.",
+      "questions": [
+        {
+          "prompt": "How are they getting there?",
+          "options": [
+            "By bus",
+            "By car",
+            "On foot"
+          ],
+          "answer": 2,
+          "why": "Pešo means on foot."
+        },
+        {
+          "prompt": "What is served with the fish?",
+          "options": [
+            "Rice",
+            "Potatoes",
+            "Bread"
+          ],
+          "answer": 1,
+          "why": "So zemiakmi means with potatoes."
+        }
+      ]
+    },
+    {
+      "id": "reading-6",
+      "unit": 6,
+      "type": "reading",
+      "title": "A trip",
+      "sk": "V sobotu cestujeme vlakom do Žiliny. Ide s nami aj môj brat. V nedeľu večer sa vrátime domov.",
+      "en": "On Saturday we are travelling by train to Žilina. My brother is coming with us too. We will return home on Sunday evening.",
+      "questions": [
+        {
+          "prompt": "Which transport do they use?",
+          "options": [
+            "Train",
+            "Bus",
+            "Plane"
+          ],
+          "answer": 0,
+          "why": "Vlakom means by train."
+        },
+        {
+          "prompt": "When do they return?",
+          "options": [
+            "Saturday evening",
+            "Sunday morning",
+            "Sunday evening"
+          ],
+          "answer": 2,
+          "why": "V nedeľu večer means on Sunday evening."
+        }
+      ]
+    },
+    {
+      "id": "listening-7",
+      "unit": 7,
+      "type": "listening",
+      "title": "Yesterday",
+      "sk": "Včera som vstala o šiestej. Ráno som pracovala. Poobede som bola v obchode. Večer som čítala knihu.",
+      "en": "Yesterday I got up at six. I worked in the morning. In the afternoon I was in a shop. In the evening I read a book.",
+      "questions": [
+        {
+          "prompt": "When did she get up?",
+          "options": [
+            "6:00",
+            "7:00",
+            "8:00"
+          ],
+          "answer": 0,
+          "why": "O šiestej means at six."
+        },
+        {
+          "prompt": "What did she do in the evening?",
+          "options": [
+            "Watched television",
+            "Read a book",
+            "Went shopping"
+          ],
+          "answer": 1,
+          "why": "Večer som čítala knihu means I read a book in the evening."
+        }
+      ]
+    },
+    {
+      "id": "reading-7",
+      "unit": 7,
+      "type": "reading",
+      "title": "A changed appointment",
+      "sk": "Dobrý deň, zajtra nemôžem prísť o deviatej. Môžem prísť o jedenástej? Ďakujem. Jana",
+      "en": "Hello, I cannot come at nine tomorrow. Can I come at eleven? Thank you. Jana",
+      "questions": [
+        {
+          "prompt": "What time was originally planned?",
+          "options": [
+            "9:00",
+            "10:00",
+            "11:00"
+          ],
+          "answer": 0,
+          "why": "She says she cannot come at nine."
+        },
+        {
+          "prompt": "What new time does Jana request?",
+          "options": [
+            "Today at eleven",
+            "Tomorrow at eleven",
+            "Tomorrow at nine"
+          ],
+          "answer": 1,
+          "why": "Zajtra sets the day as tomorrow; o jedenástej is at eleven."
+        }
+      ]
+    },
+    {
+      "id": "listening-8",
+      "unit": 8,
+      "type": "listening",
+      "title": "At work",
+      "sk": "Pracujem v nemocnici. Som zdravotná sestra. Dnes začínam o siedmej ráno a končím o tretej poobede.",
+      "en": "I work in a hospital. I am a nurse. Today I start at seven in the morning and finish at three in the afternoon.",
+      "questions": [
+        {
+          "prompt": "Where does she work?",
+          "options": [
+            "School",
+            "Bank",
+            "Hospital"
+          ],
+          "answer": 2,
+          "why": "V nemocnici means in a hospital."
+        },
+        {
+          "prompt": "When does she finish today?",
+          "options": [
+            "13:00",
+            "15:00",
+            "17:00"
+          ],
+          "answer": 1,
+          "why": "O tretej poobede means at three in the afternoon."
+        }
+      ]
+    },
+    {
+      "id": "reading-8",
+      "unit": 8,
+      "type": "reading",
+      "title": "Birthday invitation",
+      "sk": "Pozývam ťa na oslavu. Narodeniny mám druhého júna. Oslava bude u mňa doma o piatej poobede. Príde aj moja sestra.",
+      "en": "I invite you to a celebration. My birthday is on the second of June. The celebration will be at my home at five in the afternoon. My sister will come too.",
+      "questions": [
+        {
+          "prompt": "When is the birthday?",
+          "options": [
+            "2 June",
+            "6 February",
+            "2 July"
+          ],
+          "answer": 0,
+          "why": "Druhého júna means the second of June."
+        },
+        {
+          "prompt": "Where is the celebration?",
+          "options": [
+            "At a restaurant",
+            "At the writer’s home",
+            "At the sister’s office"
+          ],
+          "answer": 1,
+          "why": "U mňa doma means at my home."
+        }
+      ]
+    },
+    {
+      "id": "listening-9",
+      "unit": 9,
+      "type": "listening",
+      "title": "A simple problem",
+      "sk": "Dnes nejdem do práce. Bolí ma hlava a mám teplotu. Zostanem doma a zavolám lekárovi.",
+      "en": "I am not going to work today. I have a headache and a fever. I will stay at home and call the doctor.",
+      "questions": [
+        {
+          "prompt": "What hurts?",
+          "options": [
+            "A leg",
+            "The head",
+            "An arm"
+          ],
+          "answer": 1,
+          "why": "Bolí ma hlava means I have a headache."
+        },
+        {
+          "prompt": "What will the speaker do?",
+          "options": [
+            "Go to work",
+            "Visit a friend",
+            "Stay home and call the doctor"
+          ],
+          "answer": 2,
+          "why": "Zostanem doma a zavolám lekárovi states both actions."
+        }
+      ]
+    },
+    {
+      "id": "reading-9",
+      "unit": 9,
+      "type": "reading",
+      "title": "Weekend plans",
+      "sk": "V sobotu budem doma. Musím upratať byt. V nedeľu pôjdem s kamarátkou do parku, ak bude pekne.",
+      "en": "On Saturday I will be at home. I have to clean the flat. On Sunday I will go to the park with a female friend if the weather is nice.",
+      "questions": [
+        {
+          "prompt": "What must the writer do on Saturday?",
+          "options": [
+            "Clean the flat",
+            "Go to work",
+            "Buy a ticket"
+          ],
+          "answer": 0,
+          "why": "Musím upratať byt means I must clean the flat."
+        },
+        {
+          "prompt": "What does the park visit depend on?",
+          "options": [
+            "A train",
+            "Nice weather",
+            "A phone call"
+          ],
+          "answer": 1,
+          "why": "Ak bude pekne means if the weather is nice."
+        }
+      ]
+    },
+    {
+      "id": "listening-10",
+      "unit": 10,
+      "type": "listening",
+      "title": "A hotel request",
+      "sk": "Dobrý večer. Mám rezerváciu na meno Novák. Prosím si izbu na dve noci. Sú raňajky v cene?",
+      "en": "Good evening. I have a reservation in the name Novák. I would like a room for two nights. Is breakfast included in the price?",
+      "questions": [
+        {
+          "prompt": "For how many nights?",
+          "options": [
+            "One",
+            "Two",
+            "Three"
+          ],
+          "answer": 1,
+          "why": "Na dve noci means for two nights."
+        },
+        {
+          "prompt": "What does the guest ask about?",
+          "options": [
+            "Parking",
+            "Wi-Fi",
+            "Breakfast"
+          ],
+          "answer": 2,
+          "why": "Raňajky means breakfast."
+        }
+      ]
+    },
+    {
+      "id": "reading-10",
+      "unit": 10,
+      "type": "reading",
+      "title": "A message from a friend",
+      "sk": "Ahoj, som už na stanici. Autobus mešká dvadsať minút. Prídem neskôr. Prosím, počkaj na mňa pred hotelom.",
+      "en": "Hi, I am already at the station. The bus is twenty minutes late. I will arrive later. Please wait for me in front of the hotel.",
+      "questions": [
+        {
+          "prompt": "How late is the bus?",
+          "options": [
+            "10 minutes",
+            "20 minutes",
+            "30 minutes"
+          ],
+          "answer": 1,
+          "why": "Dvadsať minút means twenty minutes."
+        },
+        {
+          "prompt": "Where should the friend wait?",
+          "options": [
+            "In front of the hotel",
+            "At the airport",
+            "Inside the station"
+          ],
+          "answer": 0,
+          "why": "Pred hotelom means in front of the hotel."
+        }
+      ]
+    }
+  ],
+  "production": [
+    {
+      "id": "intro",
+      "unit": 1,
+      "title": "Introduce yourself",
+      "prompt": "Say your name, where you are from, where you live and which languages you speak. Then ask the other person their name.",
+      "checks": [
+        "I gave my name.",
+        "I said where I am from and where I live.",
+        "I named a language I speak.",
+        "I asked a question."
+      ],
+      "model": "Dobrý deň. Volám sa Anna. Som z Anglicka. Bývam v Bratislave. Hovorím po anglicky a trochu po slovensky. Ako sa voláte?",
+      "en": "Hello. My name is Anna. I am from England. I live in Bratislava. I speak English and a little Slovak. What is your name?"
+    },
+    {
+      "id": "family",
+      "unit": 3,
+      "title": "Describe your family",
+      "prompt": "Introduce two real or imaginary family members. Give their names and one detail about each.",
+      "checks": [
+        "I described two people.",
+        "I used family words.",
+        "I gave a detail about each person.",
+        "I checked adjective agreement."
+      ],
+      "model": "Mám brata a sestru. Môj brat sa volá Peter a je učiteľ. Moja sestra sa volá Eva a je študentka.",
+      "en": "I have a brother and a sister. My brother is called Peter and he is a teacher. My sister is called Eva and she is a student."
+    },
+    {
+      "id": "cafe",
+      "unit": 5,
+      "title": "Order in a café",
+      "prompt": "Greet the waiter, order a drink and something to eat, and ask the price. Practise both your order and a possible reply.",
+      "checks": [
+        "I greeted the waiter.",
+        "I ordered a drink and food.",
+        "I used please or thank you.",
+        "I asked how much it costs."
+      ],
+      "model": "Dobrý deň. Prosím si čaj s citrónom a jeden koláč. Koľko to stojí? Ďakujem.",
+      "en": "Hello. I would like tea with lemon and one cake, please. How much does it cost? Thank you."
+    },
+    {
+      "id": "invite",
+      "unit": 6,
+      "title": "Write an invitation",
+      "prompt": "Write a short message inviting a friend to lunch. Include the day, time and place, and ask for a reply. Aim for 25–40 words as practice, not as an official exam rule.",
+      "checks": [
+        "I invited a friend.",
+        "I included a day and time.",
+        "I included a place.",
+        "I asked for a reply."
+      ],
+      "model": "Ahoj, chceš ísť v sobotu na obed? Stretneme sa o dvanástej pred reštauráciou pri stanici. Príde aj moja sestra. Prosím, napíš mi, či môžeš prísť. Teším sa!",
+      "en": "Hi, would you like to go for lunch on Saturday? We will meet at twelve in front of the restaurant near the station. My sister will come too. Please write and tell me whether you can come. I am looking forward to it!"
+    },
+    {
+      "id": "yesterday",
+      "unit": 7,
+      "title": "Talk about yesterday",
+      "prompt": "Say or write three things you did yesterday, with a time expression. Use the past forms that fit your gender.",
+      "checks": [
+        "I mentioned yesterday.",
+        "I described three actions.",
+        "I checked past-tense gender.",
+        "I used a time expression."
+      ],
+      "model": "Včera som vstala o siedmej. Ráno som pracovala doma. Poobede som išla do obchodu a večer som čítala knihu.",
+      "en": "Yesterday I got up at seven. In the morning I worked at home. In the afternoon I went to the shop and in the evening I read a book."
+    },
+    {
+      "id": "appointment",
+      "unit": 8,
+      "title": "Change an appointment",
+      "prompt": "Write a polite message: you cannot come tomorrow at nine. Suggest eleven instead and ask whether that is possible. Aim for 20–35 words.",
+      "checks": [
+        "I used a polite greeting.",
+        "I explained which appointment I cannot attend.",
+        "I proposed a new time.",
+        "I asked for confirmation."
+      ],
+      "model": "Dobrý deň, zajtra nemôžem prísť o deviatej. Môžem prísť o jedenástej? Prosím, napíšte mi, či je to možné. Ďakujem za pomoc.",
+      "en": "Hello, I cannot come at nine tomorrow. Can I come at eleven? Please write and tell me whether that is possible. Thank you for your help."
+    },
+    {
+      "id": "help",
+      "unit": 9,
+      "title": "Ask for help",
+      "prompt": "Ask a stranger where the station is. Ask them to repeat more slowly and thank them. With a partner, swap roles.",
+      "checks": [
+        "I asked where the station is.",
+        "I used polite address.",
+        "I asked for slower speech or repetition.",
+        "I thanked the person."
+      ],
+      "model": "Prepáčte, kde je stanica? Nerozumiem. Môžete to povedať ešte raz, prosím? Hovorte, prosím, pomaly. Ďakujem.",
+      "en": "Excuse me, where is the station? I do not understand. Can you say it again, please? Please speak slowly. Thank you."
+    },
+    {
+      "id": "plans",
+      "unit": 10,
+      "title": "Make a weekend plan",
+      "prompt": "Describe your plans for Saturday and Sunday, then invite a friend to join one activity. Try a 30–60 second spoken response.",
+      "checks": [
+        "I described both days.",
+        "I used a future expression.",
+        "I invited the other person.",
+        "I can answer a simple follow-up question."
+      ],
+      "model": "V sobotu budem doma a budem sa učiť. V nedeľu pôjdem do mesta. Chceš ísť so mnou na kávu?",
+      "en": "On Saturday I will be at home and I will study. On Sunday I will go to town. Do you want to go for coffee with me?"
+    }
+  ]
+}
