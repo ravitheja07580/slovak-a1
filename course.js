@@ -336,11 +336,11 @@ topic('Daily routines','Describe your day from getting up to going to bed.','vst
 'Večer pozerám film.|I watch a film in the evening.|in the evening;I watch;film',
 'Chodím spať o desiatej.|I go to bed at ten.|I go regularly;sleep;at;tenth (hour understood)']);
 topic('Talking about yesterday','Say where you were and what you did yesterday.','včera=yesterday|minulý=last / past (masculine)|bol=was (masculine)|bola=was (feminine)|robil=did (masculine)|robila=did (feminine)|videl=saw (masculine)|videla=saw (feminine)|doma=at home|vtedy=then / at that time|víkend=weekend|večera=dinner',[
-'Včera som bol doma.|I was at home yesterday. (male speaker)|yesterday;I was (auxiliary);was (masculine);at home',
-'Včera som bola v práci.|I was at work yesterday. (female speaker)|yesterday;I was (auxiliary);was (feminine);at;work (location form)',
-'Čo si robil včera?|What did you do yesterday? (to a male friend)|what;you did (auxiliary);did (masculine);yesterday',
-'Čo si robila včera?|What did you do yesterday? (to a female friend)|what;you did (auxiliary);did (feminine);yesterday',
-'Večer sme boli doma.|We were at home in the evening.|in the evening;we were (auxiliary);were (plural);at home']);
+'Včera som bol doma.|I was at home yesterday. (male speaker)|yesterday;first-person singular past auxiliary;was (masculine);at home',
+'Včera som bola v práci.|I was at work yesterday. (female speaker)|yesterday;first-person singular past auxiliary;was (feminine);at;work (location form)',
+'Čo si robil včera?|What did you do yesterday? (to a male friend)|what;second-person singular past auxiliary;did (masculine);yesterday',
+'Čo si robila včera?|What did you do yesterday? (to a female friend)|what;second-person singular past auxiliary;did (feminine);yesterday',
+'Večer sme boli doma.|We were at home in the evening.|in the evening;first-person plural past auxiliary;were (plural);at home']);
 topic('Tomorrow and future plans','Explain three plans for tomorrow.','budem=I will be|budeš=you will be (informal)|bude=he/she/it will be|budeme=we will be|budete=you will be (polite/plural)|budú=they will be|pôjdem=I will go|neskôr=later|budúci=next / future (masculine)|plánovať=to plan|dovolenka=holiday / leave|cestovať=to travel',[
 'Zajtra budem pracovať.|I will work tomorrow.|tomorrow;I will;work',
 'V sobotu pôjdem do mesta.|I will go into town on Saturday.|on;Saturday (object form);I will go;to;town (destination form)',

@@ -263,7 +263,7 @@
         },
         {
           "title": "Family and marital status",
-          "rule": "Use som with descriptions of yourself. Married is ženatý for a man and vydatá for a woman. A male child is syn; a female child is dcéra. Brat is brother, sestra sister.",
+          "rule": "Use som with descriptions of yourself. Married is ženatý for a man and vydatá for a woman. Syn means son and dcéra means daughter. Brat is brother, sestra sister.",
           "examples": [
             [
               "Som vydatá.",

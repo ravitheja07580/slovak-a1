@@ -117,9 +117,9 @@ dialogue(12,'Checking into a hotel',['Receptionist','Guest'],'Give a reservation
 'Na druhom poschodí. Tu je kľúč.|On the second floor. Here is the key.|on;second (location neuter);floor (location form);here;is;key',
 'Ďakujem pekne.|Thank you very much.|I thank you;nicely (here: very much)']);
 dialogue(13,'Yesterday and tomorrow',['Peter','Eva'],'Talk about yesterday, ask about tomorrow, and arrange a walk. Use the past-tense form that fits you.',[
-'Čo si robila včera?|What did you do yesterday? (to a woman)|what;you did (auxiliary);did (feminine);yesterday',
-'Bola som doma. A ty?|I was at home. And you? (female speaker)|was (feminine);I was (auxiliary);at home;and;you',
-'Bol som v práci.|I was at work. (male speaker)|was (masculine);I was (auxiliary);at;work (location form)',
+'Čo si robila včera?|What did you do yesterday? (to a woman)|what;second-person singular past auxiliary;did (feminine);yesterday',
+'Bola som doma. A ty?|I was at home. And you? (female speaker)|was (feminine);first-person singular past auxiliary;at home;and;you',
+'Bol som v práci.|I was at work. (male speaker)|was (masculine);first-person singular past auxiliary;at;work (location form)',
 'Čo budeš robiť zajtra?|What will you do tomorrow? (informal)|what;you will;do;tomorrow',
 'Pôjdem do mesta. Máš čas?|I will go into town. Do you have time?|I will go;to;town (destination form);you have;time',
 'Áno, mám čas poobede.|Yes, I have time in the afternoon.|yes;I have;time;in the afternoon',
@@ -188,7 +188,7 @@ grammar('Numbers & prices','One agrees with gender: jeden, jedna, jedno. Two use
 grammar('Can, must & want','Use a conjugated modal verb followed by an infinitive. Môžem means I can or may; musím means I must; chcem means I want. Nemusím means I do not have to, not I must not. For a prohibition, nesmiem means I am not allowed to.',[
 'Môžem prísť.|I can come.|I can;come','Musím pracovať.|I have to work.|I must;work','Chcem jesť.|I want to eat.|I want;eat','Nemusím ísť.|I do not have to go.|I do not have to;go','Nesmiem tu parkovať.|I am not allowed to park here.|I am not allowed;here;park']);
 grammar('Past: what happened','Past forms agree with gender and number. First and second persons also use an auxiliary. Use masculine bol som or feminine bola som. Auxiliary words normally sit near the start, after the first sentence element. Some verbs have irregular stems.',[
-'Bol som doma.|I was at home. (male speaker)|was (masculine);I was (auxiliary);at home','Bola som doma.|I was at home. (female speaker)|was (feminine);I was (auxiliary);at home','Včera sme pracovali.|We worked yesterday.|yesterday;we did (auxiliary);worked (plural)','Ona čítala.|She was reading.|she;read (feminine past)']);
+'Bol som doma.|I was at home. (male speaker)|was (masculine);first-person singular past auxiliary;at home','Bola som doma.|I was at home. (female speaker)|was (feminine);first-person singular past auxiliary;at home','Včera sme pracovali.|We worked yesterday.|yesterday;first-person plural past auxiliary;worked (plural)','Ona čítala.|She was reading.|she;read (feminine past)']);
 grammar('Future & verb aspect','For an ongoing or repeated future activity, many imperfective verbs use budem plus the infinitive. Perfective verbs often have a simple future form instead. The everyday future of ísť is pôjdem. Learn high-frequency pairs gradually; this course prioritises usable phrases.',[
 'Budem čítať.|I will read / be reading.|I will;read','Zajtra pôjdem do školy.|Tomorrow I will go to school.|tomorrow;I will go;to;school (destination form)','Pošlem vám správu.|I will send you a message. (polite)|I will send;to you (polite);message (object)']);
 grammar('Requests & instructions','Prosím si is a useful request at a café or shop. Commands have informal singular and polite/plural forms. Learn common polite instructions so you can understand staff, teachers and doctors. A question with môžete can soften a request.',[
